@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  cursor: crosshair;
+}
+
+h1 {
+  font-size: 10rem;
+  text-align: center;
+  background: -webkit-linear-gradient(#fe0505, #0011ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: anim2 3s infinite;
+}
+
+.style {
+  position: absolute;
+  font-size: var(--font);
+  animation: anim 9s;
+  opacity: 0.2;
+  filter: hue-rotate(50deg);
+  transform: rotate(0deg);
+}
+
+@keyframes anim {
+  to {
+    opacity: 1;
+    top: -400px;
+    filter: hue-rotate(720deg);
+    transform: rotate(var(--rotate));
+  }
+}
