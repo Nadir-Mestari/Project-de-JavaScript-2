@@ -18,6 +18,15 @@ h1 {
   -webkit-text-fill-color: transparent;
   animation: anim2 3s infinite;
 }
+#timer {
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+  background: -webkit-linear-gradient(#fe0505c2, #000000b9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+}
 
 .style {
   position: absolute;
